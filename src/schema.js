@@ -35,8 +35,7 @@ const typeDefs = gql`
     author: Author!
     "The track's illustration to display in track card or track page detail"
     thumbnail: String
-    "The track's approximate length to complete, in minutes"
-   "The track's full duration, in seconds"
+    "The track's full duration, in seconds"
     durationInSeconds: Int
     "The track's approximate length to complete, in seconds"
     length: Int @deprecated(reason: "Use durationInSeconds")
